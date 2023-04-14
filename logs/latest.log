@@ -1,0 +1,503 @@
+[19:17:17] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.19
+[19:17:17] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[19:17:18] [ForkJoinPool-1-worker-5/WARN]: Mod createaddition uses the version 20230211a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '20230211a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:17:18] [ForkJoinPool-1-worker-4/WARN]: Mod create uses the version 0.5.0.i-991+1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'i'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:17:18] [ForkJoinPool-1-worker-2/WARN]: Mod flywheel uses the version 0.6.8.a-4 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:17:18] [main/INFO]: Loading 117 mods:
+	- architectury 6.5.77
+	- byg 2.0.0.13
+	   |-- com_electronwill_night-config_core 3.6.6
+	   \-- com_electronwill_night-config_toml 3.6.6
+	- cloth-config 8.2.88
+	   \-- cloth-basic-math 0.6.1
+	- create 0.5.0.i-991+1.19.2
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.8.a-4
+	   |-- forgeconfigapiport 4.2.9
+	   |-- milk 1.0.51
+	   |    \-- dripstone_fluid_lib 2.0.1
+	   |-- porting_lib 2.1.875+1.19.2
+	   |    |-- forge_tags 3.0
+	   |    |-- mm 2.3
+	   |    |-- porting_lib_accessors 2.1.875+1.19.2
+	   |    |-- porting_lib_attributes 2.1.875+1.19.2
+	   |    |-- porting_lib_base 2.1.875+1.19.2
+	   |    |-- porting_lib_common 2.1.875+1.19.2
+	   |    |-- porting_lib_constants 2.1.875+1.19.2
+	   |    |-- porting_lib_entity 2.1.875+1.19.2
+	   |    |-- porting_lib_extensions 2.1.875+1.19.2
+	   |    |-- porting_lib_fake_players 2.1.875+1.19.2
+	   |    |-- porting_lib_lazy_registration 2.1.875+1.19.2
+	   |    |-- porting_lib_loot 2.1.875+1.19.2
+	   |    |-- porting_lib_model_generators 2.1.875+1.19.2
+	   |    |-- porting_lib_model_loader 2.1.875+1.19.2
+	   |    |-- porting_lib_models 2.1.875+1.19.2
+	   |    |-- porting_lib_networking 2.1.875+1.19.2
+	   |    |-- porting_lib_obj_loader 2.1.875+1.19.2
+	   |    |-- porting_lib_transfer 2.1.875+1.19.2
+	   |    \-- serialization_hooks 0.3.26
+	   |-- reach-entity-attributes 2.3.0
+	   \-- registrate-fabric 1.1.57-MC1.19.2
+	- createaddition 20230211a
+	   \-- team_reborn_energy 2.2.0
+	- createchunkloading 1.3.0
+	- createreibugfix 0.1.2-mc1.19.x
+	- extended_drawers 1.3.8+mc.1.19.2
+	   |-- com_github_llamalad7_mixinextras 0.1.1
+	   |-- graphlib 0.3.6+1.19.2
+	   \-- mconfig 1.2.0+mc.1.19-rc1
+	        |-- de_poiu_apron_apron 2.1.1
+	        \-- fabric-permissions-api-v0 0.1-SNAPSHOT
+	- fabric-api 0.76.0+1.19.2
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.41+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.8+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-api-v1 1.2.11+10eb22f490
+	   |-- fabric-networking-v0 0.3.28+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.0.14+4d0d570390
+	   |-- fabric-recipe-api-v1 1.0.1+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.32+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.24+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.27+df3654b390
+	   |-- fabric-rendering-v1 1.12.1+d8ef690890
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.7+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabricloader 0.14.19
+	- fastload 3.3.3
+	   |-- conditional-mixin 0.3.2
+	   |-- fastload-119-0-1-2-compat 3.3.3
+	   |-- fastload-1193-compat 3.3.3
+	   |-- fastload-1194-compat 3.3.3
+	   \-- fastload_fapi_forward 1.0.1
+	- iris 1.6.0
+	   |-- io_github_douira_glsl-transformer 2.0.0-pre12
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.11.1
+	- java 17
+	- lithium 0.11.1
+	- minecraft 1.19.2
+	- reeses-sodium-options 1.4.9+mc1.19.2-build.67
+	- roughlyenoughitems 9.1.595
+	   \-- error_notifier 1.0.9
+	- sodium 0.4.4+build.18
+	   \-- org_joml_joml 1.10.4
+	- sodium-extra 0.4.16+mc1.19.2-build.90
+	   \-- caffeineconfig 1.0.0+1.17
+	- terrablender 2.0.1.136
+[19:17:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/karutoil/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[19:17:21] [main/INFO]: Compatibility level set to JAVA_16
+[19:17:21] [main/INFO]: Compatibility level set to JAVA_17
+[19:17:22] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[19:17:22] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[19:17:22] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[19:17:23] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[19:17:27] [main/WARN]: Method overwrite conflict for setTranslation in flywheel.fabric.mixins.json:Matrix4fMixin from mod flywheel, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.Matrix4fMixin. Skipping method.
+[19:17:29] [main/INFO]: Building optimized datafixer
+[19:17:35] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:17:36] [Render thread/INFO]: Setting user: Karutoil
+[19:17:36] [Render thread/INFO]: BYG registries bootstrapped
+[19:17:40] [Render thread/ERROR]: No data fixer registered for byg:boat
+[19:17:40] [Render thread/ERROR]: No data fixer registered for byg:chest_boat
+[19:17:40] [Render thread/INFO]: Initializing BYG network...
+[19:17:40] [Render thread/INFO]: Initialized BYG network!
+[19:17:40] [Render thread/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[19:17:44] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19:17:46] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[19:17:46] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:17:46] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[19:17:46] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:17:48] [Render thread/WARN]: Configuration file C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\create-common.toml is not correct. Correcting
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.disableWorldGen was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.clusterSize was corrected from null to its default, 32. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.frequency was corrected from null to its default, 0.0833333358168602. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.minHeight was corrected from null to its default, 40. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.maxHeight was corrected from null to its default, 90. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.clusterSize was corrected from null to its default, 32. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.frequency was corrected from null to its default, 0.0833333358168602. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.minHeight was corrected from null to its default, -30. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.maxHeight was corrected from null to its default, 70. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.clusterSize was corrected from null to its default, 12. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.frequency was corrected from null to its default, 8.0. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.minHeight was corrected from null to its default, -63. 
+[19:17:48] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.maxHeight was corrected from null to its default, 70. 
+[19:17:48] [Render thread/WARN]: Configuration file C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\create-client.toml is not correct. Correcting
+[19:17:48] [Render thread/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.fluidUnitType was corrected from null to its default, MILIBUCKETS. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.simplifyFluidUnit was corrected from null to its default, true. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.toolboxHotbarOverlayOffset was corrected from null to its default, 0. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
+[19:17:48] [Render thread/WARN]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:17:48] [Render thread/WARN]: Configuration file C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\createaddition-common.toml is not correct. Correcting
+[19:17:48] [Render thread/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key general.fe_conversion was corrected from null to its default, 240. 
+[19:17:48] [Render thread/WARN]: Incorrect key general.baseline_stress was corrected from null to its default, 8192. 
+[19:17:48] [Render thread/WARN]: Incorrect key electric_motor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key electric_motor.motor_rpm_range was corrected from null to its default, 256. 
+[19:17:48] [Render thread/WARN]: Incorrect key electric_motor.motor_min_consumption was corrected from null to its default, 8. 
+[19:17:48] [Render thread/WARN]: Incorrect key electric_motor.motor_max_input was corrected from null to its default, 256. 
+[19:17:48] [Render thread/WARN]: Incorrect key electric_motor.motor_capacity was corrected from null to its default, 2048. 
+[19:17:48] [Render thread/WARN]: Incorrect key alternator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key alternator.generator_max_output was corrected from null to its default, 256. 
+[19:17:48] [Render thread/WARN]: Incorrect key alternator.generator_capacity was corrected from null to its default, 2048. 
+[19:17:48] [Render thread/WARN]: Incorrect key alternator.generator_efficiency was corrected from null to its default, 0.75. 
+[19:17:48] [Render thread/WARN]: Incorrect key rolling_mill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key rolling_mill.rolling_mill_processing_duration was corrected from null to its default, 100. 
+[19:17:48] [Render thread/WARN]: Incorrect key rolling_mill.rolling_mill_stress was corrected from null to its default, 16. 
+[19:17:48] [Render thread/WARN]: Incorrect key heater was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key heater.heater_max_input was corrected from null to its default, 256. 
+[19:17:48] [Render thread/WARN]: Incorrect key heater.heater_capacity was corrected from null to its default, 2048. 
+[19:17:48] [Render thread/WARN]: Incorrect key heater.heater_normal_consumption was corrected from null to its default, 96. 
+[19:17:48] [Render thread/WARN]: Incorrect key heater.heater_furnace_engine_consumption was corrected from null to its default, 1024. 
+[19:17:48] [Render thread/WARN]: Incorrect key heater.heater_furnace_engine_enable was corrected from null to its default, false. 
+[19:17:48] [Render thread/WARN]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key wires.connector_max_input was corrected from null to its default, 1024. 
+[19:17:48] [Render thread/WARN]: Incorrect key wires.connector_max_output was corrected from null to its default, 1024. 
+[19:17:48] [Render thread/WARN]: Incorrect key wires.connector_input_capacity was corrected from null to its default, 2048. 
+[19:17:48] [Render thread/WARN]: Incorrect key wires.wire_length was corrected from null to its default, 12. 
+[19:17:48] [Render thread/WARN]: Incorrect key accumulator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key accumulator.accumulator_max_input was corrected from null to its default, 512. 
+[19:17:48] [Render thread/WARN]: Incorrect key accumulator.accumulator_max_output was corrected from null to its default, 512. 
+[19:17:48] [Render thread/WARN]: Incorrect key accumulator.accumulator_capacity was corrected from null to its default, 4196000. 
+[19:17:48] [Render thread/WARN]: Incorrect key tesla_coil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:48] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_max_input was corrected from null to its default, 8192. 
+[19:17:48] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_charge_rate was corrected from null to its default, 4096. 
+[19:17:48] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_recipe_charge_rate was corrected from null to its default, 1024. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_capacity was corrected from null to its default, 32000. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_energy_required was corrected from null to its default, 1024. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_range was corrected from null to its default, 3. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_mob was corrected from null to its default, 3. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_effect_time_mob was corrected from null to its default, 20. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_player was corrected from null to its default, 2. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_effect_time_player was corrected from null to its default, 20. 
+[19:17:49] [Render thread/WARN]: Incorrect key tesla_coil.tesla_coil_fire_cooldown was corrected from null to its default, 20. 
+[19:17:49] [Render thread/WARN]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:17:49] [Render thread/WARN]: Incorrect key misc.diamond_grit_sandpaper_uses was corrected from null to its default, 1024. 
+[19:17:49] [Render thread/WARN]: Incorrect key misc.furnace_burner_engine_speed was corrected from null to its default, 1.0. 
+[19:17:49] [Render thread/WARN]: Incorrect key misc.crude_burner_engine_speed was corrected from null to its default, 2.0. 
+[19:17:49] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:17:49] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:17:49] [Render thread/INFO]: [STDOUT]: Create Crafts & Addition Initialized!
+[19:17:49] [Render thread/INFO]: Create&REIBugFix (createreibugfix)  is loaded!
+[19:17:50] [Render thread/INFO]: Initializing GraphLib...
+[19:17:50] [Render thread/INFO]: GraphLib Initialized.
+[19:17:50] [Render thread/INFO]: Definitely not up to no good
+[19:17:52] [Render thread/INFO]: [REI] Config loaded
+[19:17:53] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[19:17:53] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider CreateAdditionREI [createaddition] for REIPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[19:17:53] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[19:17:53] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[19:17:53] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[19:17:53] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[19:17:53] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[19:17:53] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[19:17:54] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\overworld\byg-overworld-biomes.json5" was read.
+[19:17:54] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:17:54] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:17:54] [Render thread/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[19:17:54] [Render thread/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[19:17:54] [Render thread/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[19:17:54] [Render thread/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[19:17:54] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[19:17:54] [Render thread/INFO]: BYG: "Client Setup" Event Complete!
+[19:17:56] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[19:17:56] [Render thread/WARN]: Failed to parse variable 'chunk_try_limit' in Fastload's config, generating a new one!
+[19:17:56] [Render thread/WARN]: Failed to parse variable 'debug' in Fastload's config, generating a new one!
+[19:17:56] [Render thread/WARN]: Failed to parse variable 'instant_load' in Fastload's config, generating a new one!
+[19:17:56] [Render thread/WARN]: Failed to parse variable 'local_render_chunk_radius' in Fastload's config, generating a new one!
+[19:17:56] [Render thread/WARN]: Failed to parse variable 'server_render_chunk_radius' in Fastload's config, generating a new one!
+[19:17:56] [Render thread/INFO]: Fastload Perceived Version: 1.19.2
+[19:17:56] [Render thread/INFO]: Fastload Abstraction Supported Versions: 1.19, 1.19.1, 1.19.2
+[19:17:56] [Render thread/INFO]: DEBUG: FALSE
+[19:17:56] [Render thread/INFO]: CHUNK_TRY_LIMIT: 250
+[19:17:56] [Render thread/INFO]: LOCAL_RENDER_CHUNK_RADIUS: 10
+[19:17:56] [Render thread/INFO]: LOCAL_RENDER_CHUNK_AREA: 314
+[19:17:56] [Render thread/INFO]: SERVER_RENDER_CHUNK_RADIUS: 3
+[19:17:56] [Render thread/INFO]: SERVER_RENDER_CHUNK_AREA: 28
+[19:17:56] [Render thread/INFO]: Iris detected.
+[19:17:57] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIClientPlugin
+[19:17:57] [Render thread/INFO]: [REI] Registered plugin provider CreateAdditionREI [createaddition] for REIClientPlugin
+[19:17:57] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[19:17:57] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[19:17:57] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[19:17:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[19:17:57] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[19:17:57] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[19:17:59] [Render thread/INFO]: Debug functionality is disabled.
+[19:17:59] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[19:18:00] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[19:18:00] [Render thread/INFO]: Shaders are disabled
+[19:18:00] [Render thread/INFO]: Hardware information:
+[19:18:00] [Render thread/INFO]: CPU: 8x Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+[19:18:00] [Render thread/INFO]: GPU: Intel(R) UHD Graphics (Supports OpenGL 3.2.0 - Build 27.20.100.8783)
+[19:18:00] [Render thread/INFO]: OS: Windows 10 (10.0)
+[19:18:02] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[19:18:02] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Oh The Biomes You'll Go, CaffeineConfig, Cloth Config v8, conditional mixin, Create, Create Crafts & Additions, Create Chunkloading, CreateFabric&REIBugFix, Dripstone Fluid Lib, Extended Drawers, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Fast Load, Fastload 1.19-0-1-2 Compatibility, Fastload 1.19.3 Compatibility, Fastload 1.19.4 Compat, Fastload Fabric-api Forwarding, Flywheel, Porting Lib Tags, Forge Config API Port, Graph Lib, Iris, Lithium, Mconfig, Milk Lib, Manningham Mills, Porting Lib, Porting Lib Accessors, Porting Lib Attributes, Porting Lib Base, Porting Lib Common, Porting Lib Constants, Porting Lib Entity, Porting Lib Extensions, Porting Lib Fake Players, Porting Lib Lazy Register, Porting Lib Loot, Porting Lib Model Generators, Porting Lib Model Loader, Porting Lib Models, Porting Lib Networking, Porting Lib Obj Loader, Porting Lib Transfer, Reach Entity Attributes, Reese's Sodium Options, Registrate for Fabric, Roughly Enough Items, Serialization Hooks, Sodium, Sodium Extra, Energy, TerraBlender)
+[19:18:02] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[19:18:03] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\settings.json5" was read.
+[19:18:03] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[19:18:03] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\surface_rules\end_surface_rules.json5" was read.
+[19:18:03] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[19:18:04] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[19:18:04] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\end-biomes.json5" was read.
+[19:18:04] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\nether-biomes.json5" was read.
+[19:18:04] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\growing-patterns.json5" was read.
+[19:18:04] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\trades.json5" was read.
+[19:18:04] [Render thread/INFO]: "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\biomepedia.json5" was read.
+[19:18:04] [Render thread/INFO]: Created compressed zip back up for "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg" in "C:\Users\karutoil\curseforge\minecraft\Instances\Create Crafted\config\byg\backups\last_working_configs_backup.zip"
+[19:18:04] [Render thread/INFO]: BYG: Compostible Blocks Added!
+[19:18:04] [Render thread/INFO]: BYG: Added tillables!
+[19:18:04] [Render thread/INFO]: BYG: Added Flammables!
+[19:18:04] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
+[19:18:04] [Render thread/INFO]: BYG: Added strippable Blocks...
+[19:18:04] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[19:18:13] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:18:13] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:18:13] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[19:18:13] [Render thread/INFO]: Sound engine started
+[19:18:14] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[19:18:14] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[19:18:14] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:18:14] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:18:14] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:18:14] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:18:14] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:18:15] [Render thread/ERROR]: No renderer present, rendering will be wrong. If you have Sodium, install Indium!
+[19:18:17] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:18:19] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:18:19] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:18:19] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:18:19] [Render thread/INFO]: Loaded all shader sources.
+[19:18:43] [Worker-Bootstrap-4/INFO]: 4283 Datafixer optimizations took 73541 milliseconds
+[19:22:37] [Server Pinger #0/ERROR]: Can't ping cp.marcushudson.me: Unknown host
+[19:22:40] [Server Pinger #1/ERROR]: Can't ping cp.marcushudson.me: Unknown host
+[19:22:40] [Render thread/INFO]: Connecting to cp.marcushudson.me, 25565
+[19:22:56] [Worker-Main-12/ERROR]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to POST https://api.minecraftservices.com/player/certificates
+	at com.mojang.authlib.minecraft.client.MinecraftClient.postInternal(MinecraftClient.java:112) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:54) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:73) ~[authlib-3.11.49.jar:?]
+	at net.minecraft.class_7434.method_43605(class_7434.java:121) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:69) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1430) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1401) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:220) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.postInternal(MinecraftClient.java:109) ~[authlib-3.11.49.jar:?]
+	... 11 more
+[19:23:22] [Server Pinger #0/ERROR]: Can't ping cp.marcushudson.me: Unknown host
+[19:23:50] [Server Pinger #1/ERROR]: Can't ping cp.marcushudson.me: Unknown host
+[19:24:46] [Render thread/INFO]: Connecting to cp.marcushudson.me, 25565
+[19:24:48] [Netty Client IO #1/INFO]: Connected to a modded server.
+[19:24:50] [Render thread/INFO]: Started 2 worker threads
+[19:24:50] [Render thread/WARN]: @Redirect conflict. Skipping mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixSidewaysInnerFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000, already redirected by mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixBackwardUpFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000
+[19:24:50] [Render thread/INFO]: Started 2 worker threads
+[19:24:50] [Render thread/INFO]: [System] [CHAT] [WARN] Sodium is installed, but Indium is not. This will cause visual issues with Create!
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] ########################################
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for START.
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] Plugins (8):
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) CreateAdditionREI of CreateAdditionREI [createaddition]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) create:rei_plugin of create:rei_plugin [create]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] ########################################
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for START.
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] Plugins (5):
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) CreateAdditionREI of CreateAdditionREI [createaddition]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) create:rei_plugin of create:rei_plugin [create]
+[19:24:50] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[19:24:51] [Render thread/INFO]: Stopping worker threads
+[19:24:51] [Render thread/INFO]: Started 2 worker threads
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for START in 2.461 ms, totaling 74.97 ms.
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for START in 673.5 ?s, totaling 533.3 ms.
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for START in 332.9 ?s, totaling 4.223 ms.
+[19:24:51] [Render thread/WARN]: [REI] Suppressing Reload Plugins of stage START
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for END.
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] Plugins (8):
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) CreateAdditionREI of CreateAdditionREI [createaddition]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) create:rei_plugin of create:rei_plugin [create]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for END.
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] Plugins (5):
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) CreateAdditionREI of CreateAdditionREI [createaddition]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) create:rei_plugin of create:rei_plugin [create]
+[19:24:51] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for END in 471.1 ?s, totaling 70.80 ms.
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for END in 391.9 ?s, totaling 993.1 ms.
+[19:24:52] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for END in 286.7 ?s, totaling 15.92 ms.
+[19:24:54] [Render thread/INFO]: World Chunk Loading: 198/28
+[19:24:54] [Render thread/INFO]: World Chunk Loading: 203/28
+[19:24:54] [Render thread/INFO]: World Chunk Loading: 205/28
+[19:24:55] [Render thread/INFO]: World Chunk Loading: 206/28
+[19:24:55] [Render thread/INFO]: World Chunk Loading: 207/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 1/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 4/28
+[19:24:55] [Render thread/INFO]: World Chunk Loading: 212/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 7/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 9/28
+[19:24:55] [Render thread/INFO]: World Chunk Loading: 213/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 12/28
+[19:24:55] [Render thread/INFO]: Same prepared chunk count returned 3 time(s) in a row!
+[19:24:55] [Render thread/INFO]: Had it be 250 time(s) in a row, rendering would've stopped
+[19:24:55] [Render thread/INFO]: World Chunk Building: 14/28
+[19:24:55] [Render thread/INFO]: World Chunk Loading: 215/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 15/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 18/28
+[19:24:55] [Render thread/INFO]: World Chunk Loading: 216/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 20/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 22/28
+[19:24:55] [Render thread/INFO]: World Chunk Loading: 217/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 24/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 25/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 26/28
+[19:24:55] [Render thread/INFO]: World Chunk Building: 28/28
+[19:24:57] [Render thread/INFO]: Successfully pre-loaded the world!
+[19:25:08] [Render thread/INFO]: Loaded 14 advancements
+[19:25:08] [Render thread/INFO]: Loaded 14 advancements
+[19:25:36] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[19:27:03] [Render thread/INFO]: [System] [CHAT] [Server: Made Karutoil a server operator]
+[19:27:07] [Render thread/INFO]: [System] [CHAT] Incorrect argument for command
+[19:27:07] [Render thread/INFO]: [System] [CHAT] gamemode 1<--[HERE]
+[19:27:58] [Render thread/INFO]: [System] [CHAT] Incorrect argument for command
+[19:27:58] [Render thread/INFO]: [System] [CHAT] gamemode 1<--[HERE]
+[19:28:02] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[19:28:05] [Render thread/INFO]: Loaded 14 advancements
+[19:28:14] [Render thread/INFO]: [System] [CHAT] Set the time to 0
+[19:28:50] [Render thread/INFO]: Flushed changes to Sodium configuration
+[19:29:06] [Render thread/INFO]: Loaded 14 advancements
+[19:38:53] [Render thread/INFO]: Stopping worker threads
+[19:38:55] [Render thread/INFO]: Stopping!
