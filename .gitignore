@@ -3,3 +3,7 @@
 **/logs/
 **/XaeroWorldMap
 **/XaeroWaypoints
+config/byg/backups/last_working_configs_backup.zip
+**/crash-reports/
+logs/latest.log
+logs/rei.log
